@@ -5,7 +5,7 @@
 ### basic web:
 ![](https://raw.githubusercontent.com/toanduc0671/NguyenDucToan-week5/main/images/basicweb.png)
 
-### build jenkins with docker
+1. build jenkins with docker
 
 ```bash
 $ docker run 
@@ -17,7 +17,7 @@ $ docker run
 
 ![](https://raw.githubusercontent.com/toanduc0671/NguyenDucToan-week5/main/images/startjenkins.png)
 
-### public port 8080 using ngrok:
+2. public port 8080 using ngrok:
 
 ```
 $ ngrok http 8080
@@ -25,7 +25,7 @@ $ ngrok http 8080
 ![](https://raw.githubusercontent.com/toanduc0671/NguyenDucToan-week5/main/images/ngrok.png)
 ![](https://raw.githubusercontent.com/toanduc0671/NguyenDucToan-week5/main/images/ngrok2.png)
 
-### add jenkinsfile to github main branch:
+3. add jenkinsfile to github main branch:
 
 ````jenkinsfile
 pipeline {
@@ -58,4 +58,7 @@ pipeline {
 }
 ````
 
-### add webhook from github with Payload url == "https://4c6ad187ad9b.ngrok.io/github-webhook/"
+4. add webhook from github with Payload url == "https://4c6ad187ad9b.ngrok.io/github-webhook/"
+![](https://raw.githubusercontent.com/toanduc0671/NguyenDucToan-week5/main/images/webhooks.png)
+
+5. create pipeline from jenkins
