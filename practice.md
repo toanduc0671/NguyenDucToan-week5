@@ -64,3 +64,6 @@ pipeline {
 5. create pipeline from jenkins
 ![](https://raw.githubusercontent.com/toanduc0671/NguyenDucToan-week5/main/images/1.png)
 ![](https://raw.githubusercontent.com/toanduc0671/NguyenDucToan-week5/main/images/2.png)
+
+6. build
+![](https://raw.githubusercontent.com/toanduc0671/NguyenDucToan-week5/main/images/build-fail.png)
