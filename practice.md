@@ -62,3 +62,5 @@ pipeline {
 ![](https://raw.githubusercontent.com/toanduc0671/NguyenDucToan-week5/main/images/webhooks.png)
 
 5. create pipeline from jenkins
+![](https://raw.githubusercontent.com/toanduc0671/NguyenDucToan-week5/main/images/1.png)
+![](https://raw.githubusercontent.com/toanduc0671/NguyenDucToan-week5/main/images/2.png)
