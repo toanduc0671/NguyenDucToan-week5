@@ -1,9 +1,11 @@
 # Continuous Integration for basic web project with jenkins
 
+## Step by step
+
 ### basic web:
 ![](https://raw.githubusercontent.com/toanduc0671/NguyenDucToan-week5/main/images/basicweb.png)
 
-## build jenkins with docker
+### build jenkins with docker
 
 ```bash
 $ docker run 
@@ -14,6 +16,14 @@ $ docker run
 ```
 
 ![](https://raw.githubusercontent.com/toanduc0671/NguyenDucToan-week5/main/images/startjenkins.png)
+
+### public port 8080 using ngrok:
+
+```
+$ ngrok http 8080
+```
+![](https://raw.githubusercontent.com/toanduc0671/NguyenDucToan-week5/main/images/ngrok.png)
+![](https://raw.githubusercontent.com/toanduc0671/NguyenDucToan-week5/main/images/ngrok2.png)
 
 ### add jenkinsfile to github main branch:
 
@@ -48,3 +58,4 @@ pipeline {
 }
 ````
 
+### add webhook from github with Payload url == "https://4c6ad187ad9b.ngrok.io/github-webhook/"
